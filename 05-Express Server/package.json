@@ -1,7 +1,7 @@
 {
-  "name": "learning-npm",
+  "name": "05-express-server",
   "version": "1.0.0",
-  "description": "learning npm ",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,7 +10,6 @@
   "author": "Teddy",
   "license": "ISC",
   "dependencies": {
-    "sillyname": "^0.1.0",
-    "superheroes": "^4.0.0"
+    "express": "^4.21.1"
   }
 }
