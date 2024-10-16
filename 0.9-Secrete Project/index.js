@@ -29,8 +29,7 @@ app.get('/', (req, res)=>{
   res.sendFile(dirName + '/public/index.html');
 })
 
-app.post('/check', (req, res)=>{
-  console.log(req.body);
+app.post('/check', (req, res)=>{ 
   if (status){
     res.sendFile(dirName + '/public/secret.html');
   }
