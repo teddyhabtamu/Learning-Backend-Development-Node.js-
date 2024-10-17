@@ -7,6 +7,14 @@
 </head>
 <body>
   <h1>Hey, it's <%= dayType %></h1>
-  <h2><%= advice %>!</h2>
+  <h2><%=   advice %>!</h2>
+  <%- include("thanks.ejs") %>
+  <ul>
+    <% for(let i=0; i<totalDays.length; i++){ %>
+      <li>
+        <%= totalDays[i] %>
+      </li>
+    <% } %>  
+  </ul>
 </body>
 </html>
